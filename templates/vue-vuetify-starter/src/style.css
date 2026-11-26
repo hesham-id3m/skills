@@ -1,0 +1,68 @@
+/* Starter global styles — shared shell conventions on top of Vuetify tokens. */
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+body {
+  font-family:
+    'Inter',
+    'Roboto',
+    'Segoe UI',
+    'Helvetica Neue',
+    Arial,
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Visible keyboard focus everywhere, in both themes. */
+.v-application :focus-visible {
+  outline: 2px solid rgb(var(--v-theme-primary));
+  outline-offset: 2px;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Section rhythm shared by public pages. */
+.section {
+  padding-block: 72px;
+}
+
+@media (max-width: 960px) {
+  .section {
+    padding-block: 48px;
+  }
+}
+
+@media (max-width: 600px) {
+  .section {
+    padding-block: 40px;
+  }
+}
+
+.page-shell {
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-inline: 24px;
+}
+
+@media (max-width: 600px) {
+  .page-shell {
+    padding-inline: 16px;
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "suite": "frontend-studio-v10.1-authenticated",
+  "note": "Use identical model, template, tools and time budget when comparing the previous system to v10. Run projects in separate folders.",
+  "cases": [
+    {
+      "id": "storefront",
+      "prompt": "Create a premium online grocery store named FreshMart.",
+      "required": [
+        "Home/shop/product/cart routes",
+        "Working local search/filter/cart",
+        "Honest DEMO products and prices",
+        "Relevant licensed photographs",
+        "EN/AR and light/dark",
+        "Mobile at 320/375px",
+        "Passing build",
+        "Account overview, real links to sample orders/wishlist/profile where relevant",
+        "Separate clearly labeled DEMO customer preview without fake login",
+        "Preview entry→account→exit; direct route navigation behaves honestly"
+      ]
+    },
+    {
+      "id": "business",
+      "prompt": "Create an elegant bilingual website for a boutique architecture studio named Form & Field.",
+      "required": [
+        "Distinctive architecture-focused composition",
+        "Credible copy without invented awards",
+        "Real working navigation",
+        "No unnecessary signup",
+        "EN/AR and light/dark",
+        "Passing build"
+      ]
+    },
+    {
+      "id": "dashboard",
+      "prompt": "Create an inventory management dashboard called StockPilot for a small retailer.",
+      "required": [
+        "Useful data table and search/filter",
+        "Useful actions and states",
+        "No forced marketing hero",
+        "Clearly labeled DEMO data",
+        "EN/AR and light/dark",
+        "Mobile usable",
+        "Passing build"
+      ]
+    },
+    {
+      "id": "saas-authenticated",
+      "prompt": "Create a bilingual SaaS project-management frontend called TaskHarbor with login, member workspace and project boards. No backend API is provided.",
+      "required": [
+        "Public overview and honest login/signup screens",
+        "Separate DEMO workspace preview",
+        "Task-oriented internal navigation with boards/list/detail and meaningful demo interactions",
+        "Profile/settings where meaningful, no made-up backend save",
+        "Direct account URL and exit demo behavior",
+        "EN/AR, light/dark, 320/375/768/1440px, passing build",
+        "No invented auth token or claimed real login"
+      ]
+    },
+    {
+      "id": "customer-dashboard-v102",
+      "prompt": "Create a premium furniture e-commerce platform with customer account dashboard, real cart and recent orders preview. No auth API.",
+      "required": [
+        "distinct customer account overview",
+        "meaningful cards and order table",
+        "clear DEMO preview and no login success",
+        "usable dialog/action flows",
+        "mobile RTL/dark"
+      ]
+    },
+    {
+      "id": "admin-rbac-v102",
+      "prompt": "Create a project management SaaS with a calm admin console, user management and roles/permissions. No backend API.",
+      "required": [
+        "admin and customer/user shells separate",
+        "users sortable/filterable table and actions",
+        "role matrix and correct demo-only permission UX",
+        "no false secure RBAC",
+        "modal validation and cancel",
+        "mobile RTL/dark"
+      ]
+    }
+  ]
+}
